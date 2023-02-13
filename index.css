@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+}
+
+.flex-container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height:50px;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 45px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.flex-container>div:hover{
+    background-color: yellow;
+}
